@@ -1,1 +1,1 @@
-# kostka
+# stupid questions

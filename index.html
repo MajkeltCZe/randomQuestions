@@ -2,7 +2,7 @@
 <html lang="cs">
 
 <head>
-  <title>Otázky</title>
+  <title>random questions</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -16,14 +16,35 @@
 <body>
 
   <header>
-    <h1 class="text-center jumbotron bg-danger text-white"></h1>
+    <h1 class="text-center jumbotron bg-danger text-white">
+    </h1>
+   
   </header>
+
+<nav class="navbar navbar-expand bg-light justify-content-center">
+  <div>
+    <ul class="navbar-nav mr-auto ">
+      <li class="nav-item">
+        <a class="nav-link "  id="i" href="#">Questions <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="i2" href="#">Mix</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="i3"  href="#">I have never</a>
+      </li>
+    
+    </ul>
+  </div>
+</nav>
+
+
 
   <main class="container">
     <div class="row">
    
       <div class="col-md-4 offset-md-4 mt-5 text-center">
-        <button class="btn-info btn  btn-lg" id="button">Hrát</button>
+        <button class="btn-info btn  btn-lg" id="button">play</button>
       </div>
     </div>
 
@@ -32,13 +53,6 @@
 
 </div>
 </div>
-
-
-
-
-
-
-
 
   </footer>
 
@@ -53,8 +67,10 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-  <script src="js/game.js"></script>
-  <script src="js/text.js"></script>
+    <script src="js/questions.js"></script>
+   <script src="js/haveNever.js"></script> 
+    <script src="js/game.js"></script>
+  
 </body>
 
 </html>
